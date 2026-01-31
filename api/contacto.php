@@ -46,7 +46,7 @@ try {
     $mail->addAddress('contacto@mauricioromero.com.mx');     // Correo destino
 
     $mail->isHTML(true);
-    $mail->Subject = 'Nuevo contacto desde Dentalrus';
+    $mail->Subject = 'Nuevo contacto desde Dentalrus de la clinica - '.$clinica;
     $mail->Body = '
 <!DOCTYPE html>
 <html lang="es">
