@@ -17,6 +17,7 @@ $nombre   = trim($_POST["nombre"] ?? '');
 $apellido = trim($_POST["apellido"] ?? '');
 $email    = trim($_POST["email"] ?? '');
 $telefono = trim($_POST["telefono"] ?? '');
+$posicion = trim($_POST["posicion"] ?? '');
 $mensaje  = trim($_POST["mensaje"] ?? '');
 $tiempo   = $_POST["tiempo"] ?? '';
 
@@ -49,6 +50,7 @@ try {
         <p><b>Nombre:</b> $nombre $apellido</p>
         <p><b>Email:</b> $email</p>
         <p><b>Teléfono:</b> $telefono</p>
+        ,<p><b>Posición:</b> $posicion</p>
         <p><b>Tiempo:</b> $tiempo</p>
         <p><b>Mensaje:</b><br>$mensaje</p>
     ";
