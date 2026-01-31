@@ -102,6 +102,10 @@ try {
 
               <table width="100%" cellpadding="6" cellspacing="0" style="font-size:15px;">
                 <tr>
+                  <td><strong>Clinica:</strong></td>
+                  <td>'.$clinica.'</td>
+                </tr>
+                <tr>
                   <td><strong>Nombre:</strong></td>
                   <td>'.$nombre.' '.$apellido.'</td>
                 </tr>
@@ -116,10 +120,6 @@ try {
                 <tr>
                   <td><strong>Posición:</strong></td>
                   <td>'.$posicion.'</td>
-                </tr>
-                <tr>
-                  <td><strong>Clinica:</strong></td>
-                  <td>'.$clinica.'</td>
                 </tr>
                 <tr>
                   <td><strong>Ciudad:</strong></td>
