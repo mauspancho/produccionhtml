@@ -43,7 +43,7 @@ try {
     $mail->Port       = 587;
 
     $mail->setFrom('mautheisle@gmail.com', 'Dentalrus Web');
-    $mail->addAddress('contacto@mauricioromero.com.mx');     // Correo destino
+    $mail->addAddress('ojahen@gmail.com');     // Correo destino
 
     $mail->isHTML(true);
     $mail->Subject = 'Nuevo contacto desde Dentalrus de la clinica - '.$clinica;
