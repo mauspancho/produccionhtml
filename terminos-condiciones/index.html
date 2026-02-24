@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="es" class="w-full overflow-x-hidden"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><title>Dentalrus</title><link rel="stylesheet" href="/_astro/aviso-privacidad.DIqZJQ_V.css"></head> <body class="w-full overflow-x-hidden m-0 p-0"> <!-- NAVBAR --> <nav class="fixed top-0 left-0 right-0
+<!DOCTYPE html><html lang="es" class="w-full overflow-x-hidden"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><title>Dentalrus</title><link rel="stylesheet" href="/_astro/aviso-privacidad.DIqZJQ_V.css"></head> <body class="w-full overflow-x-hidden m-0 p-0 hidden" id="app-body"> <!-- NAVBAR --> <nav class="fixed top-0 left-0 right-0
     w-full
     bg-[#003865]/90 backdrop-blur-md
     border-b border-white/10
@@ -390,4 +390,22 @@ TikTok · @dentalrus
 © 2026 Dentalrus. Todos los derechos reservados ·
 <a href="/aviso-privacidad" class="text-white hover:underline">
 Aviso de privacidad
-</a> </div> </div> </footer> </body></html>
+</a> </div> </div> </footer> <script type="module">document.addEventListener("DOMContentLoaded",async()=>{console.log("Script ejecutándose...");const t=document.getElementById("app-body");try{const e=await fetch("https://api.linuxmedia.lat/api/estado",{cache:"no-store"});if(!e.ok)throw new Error("API error");const o=await e.json();console.log("Data:",o),o.success?t?.classList.remove("hidden"):document.body.innerHTML=`
+        <div style="
+          min-height:100vh;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          flex-direction:column;
+          background:#003865;
+          color:white;
+          text-align:center;
+        ">
+          <h1 style="font-size:2rem;font-weight:bold;">
+            Sitio en mantenimiento
+          </h1>
+          <p style="margin-top:20px;">
+            Estamos realizando mejoras.
+          </p>
+        </div>
+      `}catch(e){console.error("Error:",e),t?.classList.remove("hidden")}});</script> </body> </html>
